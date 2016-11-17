@@ -1,0 +1,124 @@
+@media screen and (max-width: 1025px) {
+	#wprmenu_bar {
+		z-index: 500 !important;
+	}
+	#wprmenu_menu.left, #wprmenu_menu.right {
+		z-index: 499 !important;
+	}
+/* Homepage BEGIN */
+ .navigation--homepage,
+ .header__logotype--homepage-sticky {
+ 	display: block;
+ }
+ .header__logotype--homepage {
+ 	position: absolute;
+ }
+ .homepage__boxes-link {
+ 	margin-bottom: 30px;
+ }
+ .homepage__boxes {
+ 	padding-bottom: 30px;
+ }
+ .navigation ul {
+ 	padding: 0 0 0 15px;
+ }
+.header__logotype--homepage,
+.header__logotype--subpage {
+		width: 150px;
+		background: url('../../images/progressive-alliance-logo-03.svg') no-repeat left top;
+		display: block !important;
+		position: fixed !important;
+		z-index: 999;
+	}
+.page-template-page-network .header__logotype--subpage {
+	top: 0 !important;
+}
+/* Homepage END */
+
+/* Network BEGIN */
+	.navigation--subpage,
+	.articles-navigation {
+		display: none;
+	}
+	.navigation__change-language--responsive {
+		top: 5px;
+		right: 40px;
+		z-index: 999;
+		position: fixed;
+	}
+	.header__logotype--subpage {
+		position: absolute;
+	}
+	.page-template-page-network .header__logotype--subpage {
+		top: 57px;
+	}
+	.component-featured__program,
+	.component-featured__partner {
+		margin-bottom: 30px;
+	}
+	.network,
+	.single-people__image,
+	.single-partner {
+		padding-top: 130px;
+	}
+	.people__box, .partner__box {
+		width: 50%;
+		float: left;
+	}
+/* Network END */
+
+/* Events BEGIN */
+	.events,
+	.single-article {
+		padding-top: 130px;
+	}
+	.single-post__document-name {
+		margin-bottom: 15px;
+	}
+/* Events END */
+
+/* Article BEGIN */
+	.articles-subpage,
+	.articles-documents {
+		padding-top: 130px;
+	}
+	.sidebar {
+		margin-top: 30px;
+	}
+/* Article END */
+
+/* Contact BEGIN */
+	.contact {
+		padding-top: 130px;
+	}
+/* Contact END */
+
+/* Search BEGIN */
+	.search-results--list {
+		padding-top: 130px;
+	}
+/* Search END */
+
+/* Search Component BEGIN */
+.search-component {
+	position: relative;
+	top: 110px;
+	margin-top: 0;
+}
+/* Search Component END */
+
+/* Change navigation BEGIN */
+.navigation__change-language--responsive {
+	display: block;
+}
+/* Change navigation END */
+.homepage__announcements-thumb {
+	width: 100%;
+	height: auto;
+	overflow: visible;
+}
+.homepage__announcements-thumb img {
+	height: auto;
+	width: 100%;
+}
+}

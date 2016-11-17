@@ -1,0 +1,166 @@
+@media screen and (max-width: 765px) {
+
+/* Homepage BEGIN */
+	.header__homepage-slider {
+		display: block;
+	}
+	 .navigation--homepage,
+	 .header__logotype--homepage-sticky {
+	 	display: none;
+	 }
+
+	.header__logotype--homepage {
+		width: 150px;
+		background: url('../../images/progressive-alliance-logo-02.svg') no-repeat left top;
+		display: block !important;
+	}
+	.homepage__boxes-headline {
+		margin-bottom: 30px;
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.homepage__announcements-headline-text {
+		font-size: 22px;
+	}
+	.homepage__announcement-notifyer {
+		text-align: center;
+	}
+	.homepage__announcement-notifyer-btn {
+		display: block;
+		width: 50%;
+		margin: 10px auto 0;
+	}
+	.header__logotype--homepage {
+		top: 0;
+		z-index: 999;
+		position: fixed;
+	}
+	.navigation__change-language--responsive {
+		top: 5px;
+		right: 40px;
+		z-index: 999;
+		position: fixed;
+	}
+	.header__homepage-slider-box {
+		width: 300px;
+		margin-left: -150px;
+		text-align: center;
+	}
+	.homepage-social--sticky {
+		display: none;
+	}
+	a.header__logotype--subpage {
+		position: fixed;
+		z-index: 999;
+		top: 0;
+	}
+	.page-template-page-articles .homepage__announcements-date {
+		margin-left: 0;
+	}
+	.homepage__announcements-detail-link img {
+		width: 100%;
+		height: auto;
+	}
+/* Homepage END */
+
+/* Network BEGIN */
+	.network-page__content {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+	.people__box, .partner__box {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.page-template-page-network .header__logotype--subpage {
+		width: 300px;
+	}
+	.header__logotype--subpage {
+		width: 150px;
+	}
+	.network,
+	.single-people__image, 
+	.single-partner {
+		padding-top: 80px;
+	}
+	.page-title {
+		font-size: 22px;
+	}
+	.people__lead {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+/* Network END */
+
+/* Events BEGIN */
+	.events {
+		padding-top: 80px;
+	}
+	.events, 
+	.single-article {
+		padding-top: 80px;
+	}
+	.single-article {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.single-event__videos iframe {
+		width: 100%;
+	}
+/* Events END */
+
+/* Campaing BEGIN */
+	.campaign__banner {
+		display: none;
+	}
+	.campaign {
+		padding-top: 40px;
+	}
+/* Campaing END */
+
+/* Articles BEGIN */
+	.articles-subpage, 
+	.articles-documents {
+		padding-top: 60px;
+	}
+	.category .page-title {
+		margin-bottom: 0;
+	}
+	.single-video iframe {
+		width: 100%;
+	}
+/* Articles END */
+
+/* Contact BEGIN */
+	.contact {
+		padding-top: 80px;
+	}
+/* Contact END */
+
+/* Search BEGIN */
+	.search-results--list {
+		padding-top: 80px;
+	}
+/* Search END */
+
+/* Search Component BEGIN */
+.search-component {
+	position: relative;
+	top: 60px;
+	margin-top: 0;
+}
+.search-component__select-area {
+	text-align: center;
+}
+.multiselect {
+	margin-bottom: 10px;
+}
+.search-component__time select {
+	margin-left: 0;
+}
+/* Search Component END */
+
+}
